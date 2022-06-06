@@ -1,0 +1,76 @@
+
+body{
+    background-image: url(IMG_0837.jpg);
+    background-size: 100% ;
+}
+
+.styled{
+    margin-top:360px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+}
+.styled:hover {
+    background-color: rgba(255, 0, 0, 0.575);
+    border: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+form{
+    margin-top: 150px;
+    margin-left: 35%;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size: large;
+    text-shadow: 2px 1px#fff;
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+input{
+    border: #000;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.231);
+
+}
+#description{
+    width: 300px;
+    height: 40px;
+}
+
+option{
+    color: rgb(0, 0, 0);
+    font-style: unset;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 1px blue;
+}
+header{
+    box-shadow: 6px 4px rgb(255, 255, 255) ;
+}

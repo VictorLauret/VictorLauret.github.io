@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Créer votre évènement</title>
+</head>
+<body>
+    <header style="background-color:black;"> <h1>Créer Votre Evènement</h1></header>
+
+   
+<form action="/action_page.php">
+    <label for="Sortie">Date de la Sortie:</label><br>
+    <input type="date" id="Sortie" name="Sortie"><br>
+    <label for="description">Description:</label><br>
+    <textarea id="description" name="description" rows="4" cols="50" maxlength="300" placeholder="Write your description here"></textarea><br>
+    
+
+    <label for="Cylindrées">Cylindrées requise:</label><br>
+    <select id="cc" name="cc">
+      <option value="Toutes">Toutes</option>
+      <option value="50">50cc</option>
+      <option value="125">125cc</option>
+      <option value="300">300cc</option>
+      <option value=">500">Plus de 500cc</option>
+    </select><br><br>
+
+    <input type="url" id="map" name="map" placeholder="Link of your Trip "><br><br>
+    
+
+    <input type="submit" value="Envoyer">
+
+</form>  
+</body>
+</html>
