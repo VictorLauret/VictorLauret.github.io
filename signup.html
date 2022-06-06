@@ -16,13 +16,30 @@
 <body>
     <form action="/action_page.php" method="get">
         <label for="name">Last Name:</label><br>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name" placeholder="Dupont"><br>
         <label for="username">First Name:</label><br>
-        <input type="text" id="username" name="username"><br>
+        <input type="text" id="username" name="username" placeholder="Jean"><br>
         <label for="mail">Email Adress:</label><br>
-        <input type="email" id="mail" name="mail"><br>
+        <input type="email" id="mail" name="mail" placeholder="jean.dupont@gmail.com"><br>
         <label for="pwd">Password:</label><br>
         <input type="password" id="pwd" name="pwd"><br><br>
+        
+        <label for="Motorbike">Your bike:</label>
+        <select id="Motorbike" name="Motorbike" style="font-size:110%">
+            <option value="Aprilia">Aprilia</option>
+            <option value="BMW">BMW</option>
+            <option value="Honda">Honda</option>
+            <option value="Husqvarna">Husqvarna</option>
+            <option value="Kawasaki">Kawasaki</option>
+            <option value="KTM">KTM</option>
+            <option value="Suzuki">Suzuki</option>
+            <option value="Yamaha">Yamaha</option>
+        </select>
+        <label for="cylindree">| Cylindrée :</label>
+        <input type="text" id="cylindree" name="cylindree" style="width:100px" placeholder="1000">
+        <label for="cylindree" style="font-size: 120%;">cc</label>
+        <label for="model">| Model :</label>
+        <input type="text" id="model" name="model" style="width:100px" placeholder="S1000RR"><br>
         <button class="styled" type="submit">Submit</button>
     </form>
     
