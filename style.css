@@ -1,5 +1,6 @@
 body {
-    background-image: url("https://s3.eu-west-1.amazonaws.com/cdn.motorbikemag.es/wp-content/uploads/2022/03/Ducati-Panigale-V4-SP2-2022-48-530x397.jpg");
+    background-image: url(IMG_0837.jpg) ;
+    background-repeat: no-repeat;
     background-size: 100%;
 
 }
