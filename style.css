@@ -1,0 +1,47 @@
+body {
+    background-image: url("https://s3.eu-west-1.amazonaws.com/cdn.motorbikemag.es/wp-content/uploads/2022/03/Ducati-Panigale-V4-SP2-2022-48-530x397.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 0.575);
+    border: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+label {
+    color:rgb(255, 255, 255);
+    font-size: 180%;
+}
+input {
+    width: 300px;
+    height: 20px;
+}
+.mydiv {
+    border: 1px outset rgb(255, 255, 255);
+    background-color: rgba(173, 216, 230, 0);
+    text-align: center; 
+}
