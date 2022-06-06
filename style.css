@@ -32,8 +32,8 @@ body {
 }
 
 label {
+    text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
     color:rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.459);
     font-size: 180%;
 }
 input {
