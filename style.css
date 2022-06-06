@@ -2,7 +2,8 @@ body {
     background-image: url(IMG_0837.jpg) ;
     background-repeat: no-repeat;
     background-size: 100%;
-
+    margin: 0;
+    padding: 0;
 }
 .styled {
     border: 0;
@@ -51,7 +52,20 @@ input::placeholder {
 }
 
 .mydiv {
-    border: 1px outset rgb(255, 255, 255);
-    background-color: rgba(173, 216, 230, 0);
-    text-align: center; 
+    border: 1px outset rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 5px; 
 }
+.mydiv h2{
+    text-align: center;
+    font-family: Georgia;
+}
+.mydiv h3{
+    text-align: left;
+    font-family: Georgia;
+}
+.mydiv p{
+    text-align: justify;
+}
+
+
